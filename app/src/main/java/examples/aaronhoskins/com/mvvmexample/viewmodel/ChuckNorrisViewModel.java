@@ -18,6 +18,7 @@ public class ChuckNorrisViewModel extends ViewModel
 
     @Bindable
     public ChuckNorris chuckNorris;
+    public String chuckNorrisName = "Chuck Norris";
 
     public void getChuckNorrisData() {
         RetrofitHelper retrofitHelper = new RetrofitHelper();
